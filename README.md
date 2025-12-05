@@ -10,19 +10,18 @@
 
 ## 📋 Table of Contents
 
-- [Summary](#summary)
+- [Summary](#-summary)
 - [Benchmarking Overview](#benchmarking-overview)
 - [Why GuideLLM?](#why-guidellm)
-- [GuideLLM Configuration](#guidellm-configuration)
-- [Test Profiles (ISL/OSL)](#test-profiles-islol)
-- [Model Inventory and Runtime Configurations](#model-inventory-and-runtime-configurations)
-- [Runtime Parameters](#runtime-parameters)
+- [GuideLLM Configuration](#-guidellm-configuration)
+- [Test Profiles (ISL/OSL)](#-test-profiles-islol)
+- [Model Inventory and Runtime Configurations](#-model-inventory-and-runtime-configurations)
+- [Runtime Parameters](#-runtime-parameters)
 - [Hardware Platforms](#hardware-platforms)
-- [Benchmark Workflow Execution](#benchmark-workflow-execution)
-- [Key Metrics](#key-metrics)
-- [Quick Reference](#quick-reference)
-- [Additional Resources](#additional-resources)
-- [Contributing](#contributing)
+- [Benchmark Workflow Execution](#-benchmark-workflow-execution)
+- [Key Metrics](#-key-metrics)
+- [Quick Reference](#-quick-reference)
+- [Additional Resources](#-additional-resources)
 
 ---
 
