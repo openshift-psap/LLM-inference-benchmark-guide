@@ -10,15 +10,19 @@
 
 ## 📋 Table of Contents
 
-- [Summary](#-summary)
-- [Benchmarking Overview](#-benchmarking-overview)
-- [GuideLLM Configuration](#️-guidellm-configuration)
-- [Test Profiles (ISL/OSL)](#-test-profiles-islol)
-- [Model Inventory](#-model-inventory-and-runtime-configurations)
-- [Hardware Platforms](#️-hardware-platforms)
-- [Benchmark Workflow](#-benchmark-workflow-execution)
-- [Key Metrics](#-key-metrics)
-- [Quick Reference](#-quick-reference)
+- [Summary](#summary)
+- [Benchmarking Overview](#benchmarking-overview)
+- [Why GuideLLM?](#why-guidellm)
+- [GuideLLM Configuration](#guidellm-configuration)
+- [Test Profiles (ISL/OSL)](#test-profiles-islol)
+- [Model Inventory and Runtime Configurations](#model-inventory-and-runtime-configurations)
+- [Runtime Parameters](#runtime-parameters)
+- [Hardware Platforms](#hardware-platforms)
+- [Benchmark Workflow Execution](#benchmark-workflow-execution)
+- [Key Metrics](#key-metrics)
+- [Quick Reference](#quick-reference)
+- [Additional Resources](#additional-resources)
+- [Contributing](#contributing)
 
 ---
 
@@ -550,6 +554,3 @@ guidellm benchmark \
 This document is maintained by the Red Hat Performance and Scale (PSAP) team.
 
 ---
-
-**Last Updated:** November 15, 2025  
-**Version:** 1.0
