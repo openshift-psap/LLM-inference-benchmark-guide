@@ -33,8 +33,8 @@ Our approach uses **GuideLLM** as the primary benchmarking tool to measure throu
 - ✅ Workload profiles (Balanced, Decode-Heavy, Prefill-Heavy, Long-Context)
 
 **📅 Date:** 12/05/2025
-**👥 Authors:** PSAP team members
-**💬 Slack:** [#forum-psap](https://redhat.slack.com/archives/forum-psap)
+**👥 Authors:** PSAP team
+**💬 Slack:** [#forum-psap]
 
 ---
 
@@ -265,8 +265,7 @@ Our performance validation uses LLMs representing different sizes, architectures
 | Model | Quantization | Size |
 |-------|-------------|------|
 | `Qwen/Qwen3-235B-A22B-Instruct-2507` | BF16 | 235B (22B active) |
-| `Qwen/Qwen3-235B-A22B-Instruct-2507-FP8` | FP8 | 235B (22B active) |
-| `Qwen/Qwen3-Next-80B-A3B-Instruct` | BF16 | 80B (3B active) |
+| `RedHatAI/Qwen3-235B-A22B-FP8-dynamic` | FP8 | 235B (22B active) |
 
 #### Large MoE
 | Model | Quantization | Size |
@@ -381,7 +380,6 @@ max-num-seqs: [16, 32]
 To ensure consistency and reproducibility across all model/hardware combinations, we follow a **standardized 5-step workflow**:
 
 ![Benchmark Workflow Diagram]
-*End-to-end benchmark workflow showing deployment, execution, and results collection*
 
 ### Step 1: Model Deployment 
 
@@ -416,16 +414,15 @@ To ensure consistency and reproducibility across all model/hardware combinations
 ### Step 5: Performance Dashboard 📊
 
 All benchmark results collected using this methodology feed into the **Performance Dashboard**, a comprehensive analytics platform for tracking, analyzing, and visualizing LLM inference performance across:
-- ✅ Releases (RHAIIS versions)
-- ✅ Models (Dense, MoE)
-- ✅ Hardware platforms (H200, MI300X, TPU, IBM Spyre)
+- Releases (RHAIIS versions)
+- Models (Dense, MoE Small, MoE Large)
+- Hardware platforms (H200, MI300X, TPU, IBM Spyre)
+- Inference engines (vLLM, SGLang)
 
 ![Performance Dashboard - Overview](images/image2.png)
 *Performance Dashboard showing throughput and latency trends across different models releases accelerators and Inference engines*
 
-
 > 🔗 **Internal Dashboard:** VPN-only link (requires Red Hat VPN access)
-
 > 💻 **Source Code:** Hosted on GitLab (Red Hat VPN required, access needed)
 
 ---
