@@ -426,8 +426,11 @@ All benchmark results collected using this methodology feed into the **Performan
 ![Performance Dashboard - Overview](images/image2.png)
 *Performance Dashboard showing throughput and latency trends across different models releases accelerators and Inference engines*
 
-> 🔗 **Internal Dashboard:** VPN-only link (requires Red Hat VPN access)
-> 💻 **Source Code:** Hosted on GitLab (Red Hat VPN required, access needed)
+![Performance Dashboard - Overview](images/image7.png)
+*Performance Dashboard showing cost and Model Performance Comparison*
+
+![Performance Dashboard - Overview](images/image8.png)
+*Pareto curves help identify optimal concurrency levels, compare accelerator efficiency, and find the best configuration for your workload requirements across different models, releases, accelerators, and inference engines*
 
 ---
 
